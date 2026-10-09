@@ -1,0 +1,12 @@
+{
+    "Python": {
+        "Data Types": "int, float, list, tuple, dict"
+    },
+    "java": {
+        "opp concept": "object oriented programming"
+    },
+    "dbms": {
+        "normalization": "1nf,2nf,3nf,4nf",
+        "tables": "create tables"
+    }
+}

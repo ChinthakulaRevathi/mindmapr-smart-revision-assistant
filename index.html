@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MindMapr – Smart Revision Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>MindMapr – Smart Revision Assistant</h1>
+
+<section>
+    <h3>Add Topic</h3>
+    <input id="topic" placeholder="Enter topic">
+    <button onclick="addTopic()">Add</button>
+</section>
+
+<section>
+    <h3>Add Subtopic</h3>
+    <input id="tname" placeholder="Topic">
+    <input id="subtopic" placeholder="Subtopic">
+    <textarea id="notes" placeholder="Notes"></textarea>
+
+    <button onclick="addSubtopic()">Add</button>
+</section>
+
+<section>
+    <h3>Delete Topic</h3>
+    <button onclick="deleteTopic()">Delete Topic</button>
+</section>
+
+<section>
+    <h3>Delete Subtopic</h3>
+    <button onclick="deleteSubtopic()">Delete Subtopic</button>
+</section>
+
+
+<section>
+    <h3>Mind Map</h3>
+    <button onclick="loadMindMap()">View</button>
+    <pre id="output"></pre>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
